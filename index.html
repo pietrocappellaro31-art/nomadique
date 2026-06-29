@@ -1,4 +1,3 @@
-Nomadique final · HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +11,7 @@ Nomadique final · HTML
             padding: 0;
             box-sizing: border-box;
         }
- 
+
         :root {
             --primary-dark: #0a0a0a;
             --primary-blue: #1a3a52;
@@ -20,18 +19,18 @@ Nomadique final · HTML
             --text-dark: #1a1a1a;
             --text-light: #f5f5f5;
         }
- 
+
         html {
             scroll-behavior: smooth;
         }
- 
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
             background: var(--accent-white);
             color: var(--text-dark);
             line-height: 1.6;
         }
- 
+
         /* HEADER & NAV */
         header {
             background: var(--primary-dark);
@@ -42,7 +41,7 @@ Nomadique final · HTML
             z-index: 100;
             border-bottom: 1px solid var(--primary-blue);
         }
- 
+
         nav {
             max-width: 1200px;
             margin: 0 auto;
@@ -51,7 +50,7 @@ Nomadique final · HTML
             align-items: center;
             flex-wrap: wrap;
         }
- 
+
         .logo {
             font-family: 'Space Grotesk', sans-serif;
             font-size: 1.6rem;
@@ -59,14 +58,14 @@ Nomadique final · HTML
             letter-spacing: 1px;
             text-transform: lowercase;
         }
- 
+
         nav ul {
             list-style: none;
             display: flex;
             gap: 3rem;
             flex-wrap: wrap;
         }
- 
+
         nav a {
             color: var(--text-light);
             text-decoration: none;
@@ -75,11 +74,11 @@ Nomadique final · HTML
             transition: color 0.3s ease;
             text-transform: uppercase;
         }
- 
+
         nav a:hover {
             color: var(--primary-blue);
         }
- 
+
         /* HERO */
         .hero {
             background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-blue) 100%);
@@ -92,7 +91,7 @@ Nomadique final · HTML
             justify-content: center;
             align-items: center;
         }
- 
+
         .hero h1 {
             font-family: 'Space Grotesk', sans-serif;
             font-size: 3.5rem;
@@ -102,7 +101,7 @@ Nomadique final · HTML
             line-height: 1.2;
             text-transform: lowercase;
         }
- 
+
         .hero p {
             font-size: 1.3rem;
             max-width: 600px;
@@ -110,7 +109,7 @@ Nomadique final · HTML
             letter-spacing: 0.5px;
             opacity: 0.95;
         }
- 
+
         .cta-button {
             display: inline-block;
             background: var(--accent-white);
@@ -124,19 +123,19 @@ Nomadique final · HTML
             transition: all 0.3s ease;
             font-size: 0.9rem;
         }
- 
+
         .cta-button:hover {
             background: transparent;
             color: var(--accent-white);
         }
- 
+
         /* SECTIONS */
         section {
             padding: 5rem 2rem;
             max-width: 1200px;
             margin: 0 auto;
         }
- 
+
         h2 {
             font-family: 'Space Grotesk', sans-serif;
             font-size: 2.5rem;
@@ -145,17 +144,17 @@ Nomadique final · HTML
             letter-spacing: 1px;
             color: var(--text-dark);
         }
- 
+
         .section-title {
             text-align: center;
             margin-bottom: 3rem;
         }
- 
+
         /* ABOUT */
         .about {
             background: var(--accent-white);
         }
- 
+
         .about-content {
             max-width: 800px;
             margin: 0 auto;
@@ -163,28 +162,28 @@ Nomadique final · HTML
             line-height: 1.8;
             color: var(--text-dark);
         }
- 
+
         .about-content p {
             margin-bottom: 1.5rem;
         }
- 
+
         /* COLLECTION */
         .collection {
             background: var(--primary-dark);
             color: var(--text-light);
         }
- 
+
         .collection h2 {
             color: var(--text-light);
         }
- 
+
         .collection-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
             gap: 3rem;
             margin-top: 3rem;
         }
- 
+
         .product-card {
             background: rgba(255, 255, 255, 0.05);
             border: 1px solid var(--primary-blue);
@@ -192,12 +191,12 @@ Nomadique final · HTML
             text-align: center;
             transition: transform 0.3s ease, border-color 0.3s ease;
         }
- 
+
         .product-card:hover {
             transform: translateY(-5px);
             border-color: var(--accent-white);
         }
- 
+
         .product-image-real {
             width: 100%;
             aspect-ratio: 1 / 1.2;
@@ -206,7 +205,7 @@ Nomadique final · HTML
             border-radius: 2px;
             display: block;
         }
- 
+
         .product-name {
             font-family: 'Space Grotesk', sans-serif;
             font-size: 1.5rem;
@@ -214,23 +213,23 @@ Nomadique final · HTML
             letter-spacing: 1px;
             text-transform: uppercase;
         }
- 
+
         .product-description {
             font-size: 0.95rem;
             color: rgba(255, 255, 255, 0.8);
             margin-bottom: 1rem;
             line-height: 1.6;
         }
- 
+
         /* MATISSE DANCE SECTION */
         .matisse-dance {
             background: var(--accent-white);
         }
- 
+
         .matisse-dance h2 {
             color: var(--text-dark);
         }
- 
+
         .matisse-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -238,20 +237,20 @@ Nomadique final · HTML
             margin-top: 3rem;
             align-items: center;
         }
- 
+
         .matisse-item {
             aspect-ratio: 2 / 3;
             overflow: hidden;
             border-radius: 2px;
         }
- 
+
         .matisse-item img {
             width: 100%;
             height: 100%;
             object-fit: cover;
             display: block;
         }
- 
+
         .matisse-description {
             text-align: center;
             margin-top: 2rem;
@@ -262,58 +261,58 @@ Nomadique final · HTML
             line-height: 1.7;
             color: var(--text-dark);
         }
- 
+
         /* GALLERY */
         .gallery {
             background: var(--accent-white);
         }
- 
+
         .gallery-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
             margin-top: 3rem;
         }
- 
+
         .gallery-item {
             aspect-ratio: 1 / 1;
             border-radius: 2px;
             overflow: hidden;
             transition: transform 0.3s ease;
         }
- 
+
         .gallery-item:hover {
             transform: scale(1.02);
         }
- 
+
         .gallery-image {
             width: 100%;
             height: 100%;
             object-fit: cover;
             display: block;
         }
- 
+
         /* CONTACT */
         .contact {
             background: var(--primary-dark);
             color: var(--text-light);
             text-align: center;
         }
- 
+
         .contact h2 {
             color: var(--text-light);
         }
- 
+
         .contact-content {
             max-width: 600px;
             margin: 2rem auto;
         }
- 
+
         .contact-content p {
             margin-bottom: 2rem;
             font-size: 1.1rem;
         }
- 
+
         .social-links {
             display: flex;
             gap: 2rem;
@@ -321,7 +320,7 @@ Nomadique final · HTML
             margin-top: 2rem;
             flex-wrap: wrap;
         }
- 
+
         .social-link {
             display: inline-flex;
             align-items: center;
@@ -335,12 +334,12 @@ Nomadique final · HTML
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
- 
+
         .social-link:hover {
             background: var(--primary-blue);
             border-color: var(--primary-blue);
         }
- 
+
         /* FOOTER */
         footer {
             background: var(--primary-dark);
@@ -350,41 +349,41 @@ Nomadique final · HTML
             padding: 2rem;
             font-size: 0.9rem;
         }
- 
+
         /* RESPONSIVE */
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 2.5rem;
             }
- 
+
             .hero p {
                 font-size: 1.1rem;
             }
- 
+
             h2 {
                 font-size: 1.8rem;
             }
- 
+
             .logo {
                 font-size: 1.3rem;
             }
- 
+
             nav ul {
                 gap: 1.5rem;
             }
- 
+
             nav a {
                 font-size: 0.8rem;
             }
- 
+
             .about-content {
                 font-size: 1rem;
             }
- 
+
             .matisse-grid {
                 grid-template-columns: 1fr;
             }
- 
+
             .social-links {
                 gap: 1rem;
             }
@@ -405,14 +404,14 @@ Nomadique final · HTML
             </ul>
         </nav>
     </header>
- 
+
     <!-- HERO -->
     <section class="hero">
         <h1>nomadique™project</h1>
         <p>Art you wear. Identity you choose.</p>
         <a href="#about" class="cta-button">Explore</a>
     </section>
- 
+
     <!-- ABOUT -->
     <section id="about" class="about">
         <h2 class="section-title">About</h2>
@@ -424,7 +423,7 @@ Nomadique final · HTML
             <p>At Nomadique, we are redefining what it means to wear fashion. Built for the visionaries, the rebels, and those who embrace authenticity without compromise.</p>
         </div>
     </section>
- 
+
     <!-- COLLECTION -->
     <section id="collection" class="collection">
         <h2 class="section-title">The Collection</h2>
@@ -436,7 +435,7 @@ Nomadique final · HTML
                 <div class="product-name">Blue Hoodie</div>
                 <div class="product-description">Urban expression meets artistic vision. Designed for those who wear intention.</div>
             </div>
- 
+
             <div class="product-card">
                 <img src="black-hoodie.png" alt="Black Hoodie" class="product-image-real">
                 <div class="product-name">Black Hoodie</div>
@@ -444,7 +443,7 @@ Nomadique final · HTML
             </div>
         </div>
     </section>
- 
+
     <!-- MATISSE DANCE -->
     <section id="matisse" class="matisse-dance">
         <h2 class="section-title">Matisse Dance</h2>
@@ -463,7 +462,7 @@ Nomadique final · HTML
             <p>Nomadique explores the freedom, movement, and joy found in Matisse's geometric abstraction. Just as Matisse's dancers celebrate human form and motion, our pieces celebrate individuality and self-expression. The body becomes a canvas, movement becomes art, and identity becomes wearable.</p>
         </div>
     </section>
- 
+
     <!-- GALLERY -->
     <section id="gallery" class="gallery">
         <h2 class="section-title">Gallery</h2>
@@ -484,11 +483,11 @@ Nomadique final · HTML
                 <img src="1B6FCCFA-6226-470D-8143-31B4DCCF4ED5.JPG" alt="Nomadique packaging" class="gallery-image">
             </div>
             <div class="gallery-item">
-                <img src="Screenshot 2026-06-29 at 19.33.11.png" alt="Nomadique tattoo art" class="gallery-image">
+                <img src="IMG_0847.jpg" alt="Nomadique tattoo art" class="gallery-image">
             </div>
         </div>
     </section>
- 
+
     <!-- CONTACT -->
     <section id="contact" class="contact">
         <h2>Connect</h2>
@@ -504,7 +503,7 @@ Nomadique final · HTML
             </div>
         </div>
     </section>
- 
+
     <!-- FOOTER -->
     <footer>
         <p>&copy; 2025 nomadique™project. All rights reserved. | Designed with intention.</p>
